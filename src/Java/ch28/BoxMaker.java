@@ -10,18 +10,17 @@ class Box<T,U>{
         con = c;
     }
     public void showIt(){
-        System.out.println("ID : " +id+", " +"Contents: "+con);
+        System.out.println("ID : " +id+" ," + "Contents: "+con);
     }
 }
 public class BoxMaker {
     public static void main(String[] args) {
-        BiFunction<Integer,String,Box> bf= Box::new;
+        BiFunction<Integer, String, Box<Integer, String>> bf = Box::new;
 
         Box<Integer, String> b1 = bf.apply(1, "Toy");
         Box<Integer, String> b2 = bf.apply(2, "Robot");
 
         b1.showIt();
         b2.showIt();
-
     }
 }
