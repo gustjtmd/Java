@@ -19,6 +19,9 @@ public class WildcardUnboxer2 {
     public static void main(String[] args) {
         Box4<String> box = new Box4<>();
         box.set("So Simple String");
+        Box4<Integer> box2 = new Box4<>();
+        box2.set(123);
         Unboxer4.peekBox(box);
+        Unboxer4.peekBox(box2);
     }
 }

@@ -14,7 +14,6 @@ class Circle2 {
             return;
         }
         rad = r;
-
     }
     public double getRad() {
         return rad;
@@ -23,7 +22,6 @@ class Circle2 {
     public double getArea(){
         return (rad * rad) * PI; //원의 넓이 반환
     }
-
 }
 
 

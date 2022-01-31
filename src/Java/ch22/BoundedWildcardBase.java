@@ -11,6 +11,7 @@ class Toy{
         return "I am Toy";
     }
 }
+class Car extends Toy{}
 
 class BoxHandler{
     public static void outBox(Box7<? extends Toy> box){
@@ -28,5 +29,6 @@ public class BoundedWildcardBase {
         Box7<Toy> box = new Box7<>();
         BoxHandler.inBox(box,new Toy());
         BoxHandler.outBox(box);
+
     }
 }
