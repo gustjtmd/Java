@@ -1,5 +1,6 @@
 package review;
 
+
 class SinusCap2{
     void sniTake(){
         System.out.println("콧물이 낫습니다.");
