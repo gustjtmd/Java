@@ -34,4 +34,21 @@ public class arrtest2 {
             System.out.println();
         }
     }
+
+    static class SinusCap2{
+        void sniTake(){
+            System.out.println("콧물이 낫습니다.");
+        }
+        void sneTake(){
+            System.out.println("재채기가 멎습니다.");
+        }
+        void snuTake(){
+            System.out.println("기침이 멈춥니다.");
+        }
+        void take(){
+            sniTake();
+            sneTake();
+            snuTake();
+        }
+    }
 }
