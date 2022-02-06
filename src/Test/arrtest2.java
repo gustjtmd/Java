@@ -1,7 +1,5 @@
 package Test;
 
-import review.ColdPatient2;
-
 public class arrtest2 {
     public static void chaos(int[][] arr) {
         int[] last = arr[arr.length-1];
@@ -58,6 +56,12 @@ public class arrtest2 {
         public static void main(String[] args) {
             ColdPatient2 coldPatient2 = new ColdPatient2();
             coldPatient2.takeCap(new SinusCap2());
+        }
+    }
+
+    static class ColdPatient2{
+        void takeCap(SinusCap2 cap){
+            cap.take();
         }
     }
 }
