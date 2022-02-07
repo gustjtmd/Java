@@ -1,4 +1,4 @@
-package review.ch11;
+package review.ch10;
 class Person{
     private int regiNum;    //주민등록 번호
     private int passNum;    //여권 번호
