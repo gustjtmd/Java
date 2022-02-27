@@ -1,4 +1,4 @@
-package review.ch13;
+package review.ch11;
 
 public class ArraysIsInstance {
     public static void main(String[] args) {
