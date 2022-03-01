@@ -1,4 +1,4 @@
-package review.ch17;
+package review.ch16;
 interface Upper{}   //마커 인터페이스
 interface Lower{}   //마커 인터페이스
 
