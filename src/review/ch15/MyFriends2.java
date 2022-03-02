@@ -1,4 +1,4 @@
-package review.ch16;
+package review.ch15;
 class Friend{
     private String name;
     private String phone;

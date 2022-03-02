@@ -1,4 +1,4 @@
-package review.ch16;
+package review.ch15;
 
 class UnivFriend2{   //대학 동창
     private String name;
